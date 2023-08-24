@@ -1,0 +1,408 @@
+/* all apply  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+htm{
+    font-size: 10px;
+    font-family:'SF Pro Display';
+
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 10rem;
+}
+
+/* toplinks */
+.toplinks{
+    background-color: rgba(0, 0, 0, .04);
+    height: 40px;
+}
+.topitem{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 9rem;
+}
+.top{
+    position: relative;
+    top: 10px;
+    font-size: 12;
+    font-weight: 400;
+    color: #000000CC;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+.top1{
+    border-right: 2px solid #000000CC;
+}
+.top:hover{
+    border-bottom: 1px solid #000000CC;
+}
+
+
+/* header section */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(251, 251, 253);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.list-mobile{
+    
+    display: none;
+}
+
+.nav-link{
+  
+    font-size: 12;
+    font-weight: 400;
+    color:  var(--r-globalnav-color);
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+
+.link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(apple.png) center no-repeat rgb(251, 251, 253);
+    position: relative;
+}
+.link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(search1.png) center no-repeat rgb(251, 251, 253);
+}
+.link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(bag1.png) center no-repeat;
+}
+
+/* top of navbar */
+.belownav{
+    background-color: #fff;
+    text-align: center;
+    
+}
+.content{
+    position: relative;
+    top: 100px;
+}
+.text p{
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+.link .span1{
+    position: relative;
+    top: 25px;
+    color:#66bbff;
+    cursor: pointer;
+}
+.link .span1:hover{
+    border-bottom: 1px solid #66bbff;
+}
+
+
+/* macsection section */
+
+.macsection{
+    
+    background: url(mackbook.gif);
+    margin-top: 6rem;
+
+}
+
+.macsection{
+    border-top: none;
+}
+.title{
+    color: black;
+    padding-top: 5.5rem;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+}
+
+.title-sub-heading{
+    font-size: 4rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 700;
+}
+
+.title-price{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color:black;
+    margin-top: .68rem;
+}
+
+.cta-link{
+    color:#0d67b1;
+    font-size: 1.8rem;
+    margin-left: 480px;
+    position: relative;
+    top: 50px;
+
+
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+
+/* Mac Air section */
+
+
+.macair{
+    background: url(macbook2.jpg);
+    position: relative;
+    bottom: 20px;
+}
+.title-dark{
+    padding-top: 5rem;
+}
+.macairprice{
+    color: black;
+}
+.linkmair1 {
+    color:#0d67b1;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 400px;
+    position: relative;
+    top: 60px;
+
+}
+.linkmair2 {
+    color:#0d67b1;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 600px;
+    position: relative;
+    top: 34px;
+
+}
+.linkmair1:hover{
+    border-bottom: 2px solid #66bbff;
+}
+.linkmair2:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+
+/* iphone14 section */
+.iphone14{
+    background: url(iphones.jpg);
+    position: relative;
+    bottom: 20px;
+}
+.title-dark{
+    padding-top: 5rem;
+}
+.iphone14price{
+    color: black;
+}
+
+/* multiple section */
+.imgcontainers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.imgcon{
+    padding: 10px 10px 10px 10px;
+}
+.conatinerimg1{
+
+    width:650px;
+    height: 600px;
+    background: url(iphone2.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: relative;
+    right: 10px;
+   
+
+}
+.conatinerimg2{
+    width:650px;
+    height: 600px;
+    background: url(ipad.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: relative;
+    left: 10px;
+}
+
+.conatinerimg3{
+    width:670px;
+    height: 600px;
+    background: url(watch.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+
+
+}
+.conatinerimg4{
+    width:670px;
+    height: 600px;
+    background: url(vision.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+
+   
+
+}
+.conatinerimg5{
+    width:670px;
+    height: 600px;
+    background: url(together.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+   
+
+}
+.conatinerimg6{
+    width:670px;
+    height: 600px;
+    background: url(card.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+   
+
+}
+
+.headingmain{
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.subheading{
+    color: #fff;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.imglink1{
+    color:#0d67b1;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    left: 230px;
+    top: 20px;
+    margin-left: 20px;
+
+}
+.imglink1:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+
+.multiplelogo1{
+position: relative;
+top: 20px;
+}
+
+.subheadingmul2{
+    position: relative;
+    bottom: 40px;
+}
+.img4{
+    position: relative;
+    top: 420px;
+}
+.diffsub{
+    color: #414146;
+}
+
+
+
+
+/* last section image slider */
+.swiper .swiper-button-next{
+margin-right: 25px;
+}
+.swiper{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    left: 10px;
+}
+.swiper-slide{
+    width: 100%;
+}
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next{
+    color: whitesmoke;
+}
+
+.swiper .swiper-pagination-bullet-active{
+background: #fff;
+}
+
+/* footer section */
+
+.footer-content{
+    background-color: rgba(0, 0, 0, .04);
+   color: #000000CC;
+   text-align: center;
+   position: relative;
+   top: 10px;
+}
+
+
+
+/* image setting apply all */
+.hero{
+    height: 69rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 65rem;
+    border-bottom: 1px solid  #fff;
+}
